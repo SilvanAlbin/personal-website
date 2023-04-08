@@ -1,0 +1,385 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	color: #333;
+  }
+  
+/* Reset some browser default styles */
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+  }
+  
+/* About Me section */
+#about-me {
+	background-image: url('../img/background.png');
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	padding: 20px;
+	min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Headings within the About Me section */
+  #about-me h3 {
+	color: #1b84fc;
+	margin-bottom: 30px; /* Increase the spacing below the headings */
+	font-size: 2.5em; /* Increase the font size */
+  }
+
+#about-me h2 {
+  color: #ffffff;
+  margin-bottom: 30px; /* Increase the spacing below the headings */
+  font-size: 2.5em; /* Increase the font size */
+}
+
+#about-me p {
+  font-size: 1.5em; /* Increase the font size */
+  max-width: 800px; /* Limit the width of the text block */
+  text-align: justify; /* Align the text to both left and right margins */
+  margin-bottom: 40px; /* Increase the spacing below the paragraph */
+}
+
+  
+/* Resume/CV styles */
+#cv-resume {
+	text-align: center;
+  }
+  
+  #cv-resume h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+  }
+  
+  #cv-resume p {
+	font-size: 16px;
+	line-height: 1.8;
+	max-width: 50%; /* Limit the width of the text block */
+	margin: 0 auto; /* Center the text block */
+  }
+  
+  /* Resume/CV styles */
+#carousel {
+	text-align: center;
+  }
+
+  #carousel h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+  }
+
+  /* Basic typography and layout */
+  body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+  }
+
+  h2 {
+	font-size: 24px;
+	margin-top: 0; /* Remove the top margin */
+	margin-bottom: 10px;
+  }
+
+  section {
+	margin-bottom: 40px;
+  }
+  .container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+  }
+  
+  /* Header styles */
+  header {
+	padding: 20px 0;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+  }
+  header h1 {
+	font-size: 32px;
+	margin-bottom: 10px;
+  }
+
+/* Additional section titles */
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #007BFF;
+	margin-bottom: 0px; /* Reduce the bottom margin */
+  }
+  
+  
+  /* Carousel styles */
+  .owl-carousel {
+	margin-bottom: 20px;
+  }
+  .owl-carousel .item {
+	text-align: center;
+  }
+  .owl-carousel img {
+	width: 100%;
+	height: auto;
+  }
+  
+  /* Services styles */
+  #services ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  #services li {
+	flex-basis: 48%;
+	margin-bottom: 20px;
+  }
+  
+  /* Contact form styles */
+  form {
+	display: flex;
+	flex-direction: column;
+  }
+  form label {
+	margin-bottom: 5px;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+  }
+  form textarea {
+	resize: none;
+  }
+  form button[type="submit"] {
+	padding: 8px 16px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+  }
+  
+  /* Footer styles */
+  footer {
+	padding: 20px 0;
+	text-align: center;
+	border-top: 1px solid #ccc;
+  }
+  
+  
+  /* Carousel content */
+.carousel-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  text-align: left;
+  border-radius: 5px; /* Add rounded edges */
+  overflow: hidden; /* Hide content that exceeds the rounded edges */
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.carousel-content img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	/* Remove the border */
+	border-radius: 5px; /* Add slightly rounded edges */
+  }
+
+.carousel-content h3 {
+  position: absolute; /* Position the text relative to the .carousel-content container */
+  bottom: 20px; /* Distance from the bottom of the container */
+  left: 20px; /* Distance from the left of the container */
+  margin: 0;
+  padding: 5px 10px; /* Add some padding around the text */
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
+  color: #fff; /* Change the text color to white */
+}
+
+/* Scroll down box */
+.scroll-down-link {
+	text-decoration: none;
+  }
+  
+  .scroll-down-box {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: transparent; /* Set the background to transparent */
+	color: #ffffff;
+	font-size: 0.8em; /* Decrease the font size */
+	border: 2px solid #ffffff; /* Add a white border */
+	border-radius: 0; /* Remove the rounded corners */
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition for background-color, color, and border-color */
+  }
+  
+  .scroll-down-box:hover {
+	background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+	color: #000000;
+	border-color: rgba(255, 255, 255, 0.7); /* Change border color on hover */
+  }
+	
+/* Social icons */
+.social-icons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+  .social-icon {
+	color: #ffffff; /* This sets the color of the icons to white */
+	font-size: 1.5em;
+	margin: 0 10px;
+	transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+	color: rgba(255, 255, 255, 0.7);
+  }
+  
+/* Burger Menu */
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	background: #333;
+	height: 100vh;
+	width: 100vw;
+  }
+  
+  .toggler {
+	z-index: 3;
+	height: 60px;
+	width: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	opacity: 0;
+  }
+  
+  .hamburger {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 60px;
+	padding: 0.6rem;
+	z-index: 3;
+  
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .hamburger > div {
+	position: relative;
+	top: 0;
+	left: 0;
+	background: white;
+	height: 2px;
+	width: 60%;
+	transition: all 0.4s ease;
+  }
+  
+  .hamburger > div::before,
+  .hamburger > div::after {
+	content: "";
+	position: absolute;
+	top: -10px;
+	background: white;
+	width: 100%;
+	height: 2px;
+	transition: all 0.4s ease;
+  }
+  
+  .hamburger > div::after {
+	top: 10px;
+  }
+  
+  .toggler:checked + .hamburger > div {
+	background: rgba(0, 0, 0, 0);
+  }
+  
+  .toggler:checked + .hamburger > div::before {
+	top: 0;
+	transform: rotate(45deg);
+	background: black;
+  }
+  
+  .toggler:checked + .hamburger > div::after {
+	top: 0;
+	transform: rotate(-45deg);
+	background: black;
+  }
+  
+  .menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	width: 0%;
+	height: 100vh;
+	z-index: 2;
+  
+	transition: all 0.4s ease;
+  }
+  
+  .toggler:checked ~ .menu {
+	width: 30%;
+  }
+  
+  .menu > div > ul {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 70px;
+	padding-left: 10px;
+  
+	visibility: hidden;
+  }
+  
+  .menu > div > ul > li {
+	list-style: none;
+	padding: 0.5rem;
+  }
+  
+  .menu > div > ul > li > a {
+	color: black;
+	text-decoration: none;
+	font-size: 2rem;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .toggler:checked ~ .menu > div > ul {
+	transition: visibility 0.4s ease;
+	transition-delay: 0.1s;
+	visibility: visible;
+  }
+  
+  .toggler:checked ~ .menu > div > ul > li > a:hover {
+	color: orange;
+  }
+  
