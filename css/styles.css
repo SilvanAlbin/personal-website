@@ -106,7 +106,7 @@ html {
   header {
 	padding: 20px 0;
 	text-align: center;
-	border-bottom: 1px solid #cccccc;
+	/*border-bottom: 1px solid #cccccc;*/
   }
   header h1 {
 	font-size: 32px;
