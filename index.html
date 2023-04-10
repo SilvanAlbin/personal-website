@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Personal Homepage</title>
+  <title>Silvan Albin</title>
   
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="carousel-assets/css/owl.carousel.min.css">
@@ -14,10 +14,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.0/css/all.css" crossorigin="anonymous">
-
-  <body>
-	<input type="checkbox" class="toggler">
-	<div class="hamburger"><div></div></div>
+</head>
+<body>
+	<input type="checkbox" id="toggler" class="toggler">
+	<label for="toggler" class="hamburger">
+	  <div></div>
+	</label>
 	<div class="menu">
 	  <div>
 		<ul>
@@ -28,11 +30,12 @@
 		</ul>
 	  </div>
 	</div>
+  </body>
+  
 	
 <!-- About Me -->
 <section id="about-me">
-	<h3>BEINVEGNI</h3>
-	<h2>Silvan Albin</h2>
+	<h3>Silvan Albin</h3>
 	<p>
 	  <!-- Add your "About Me" text here -->
 	  Beinvegni sin mia pagina persunala
@@ -43,8 +46,8 @@
 	  </div>
 	</a>
 	<div class="social-icons">
-	  <a href="https://www.linkedin.com/in/your-profile" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
-	  <a href="https://www.instagram.com/your-profile" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+	  <a href="https://www.linkedin.com/in/silvanalbin/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+	  <a href="https://www.instagram.com/silvalbin/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
 	  <a href="https://github.com/SilvanAlbin" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
 	</div>
   </section>
@@ -105,24 +108,57 @@
     </section>
     
     <!-- Contact Form -->
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form action="contact.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-        
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+	<div class="background">
+		<div class="container">
+		  <div class="screen">
+			<div class="screen-header">
+			  <div class="screen-header-left">
+				<div class="screen-header-button close"></div>
+				<div class="screen-header-button maximize"></div>
+				<div class="screen-header-button minimize"></div>
+			  </div>
+			  <div class="screen-header-right">
+				<div class="screen-header-ellipsis"></div>
+				<div class="screen-header-ellipsis"></div>
+				<div class="screen-header-ellipsis"></div>
+			  </div>
+			</div>
+			<div class="screen-body">
+			  <div class="screen-body-item left">
+				<div class="app-title">
+				  <span>KONTAKTIERE</span>
+				  <span>MICH</span>
+				</div>
+				<div class="app-contact"></div>
+			  </div>
+			  <div class="screen-body-item">
+				<div class="app-form">
+					<form action="contact-form.php" method="post">
+					  <div class="app-form-group">
+						<input class="app-form-control" name="firstname" placeholder="VORNAME">
+					  </div>
+					  <div class="app-form-group">
+						<input class="app-form-control" name="lastname" placeholder="NACHNAME">
+					  </div>
+					  <div class="app-form-group">
+						<input class="app-form-control" name="email" placeholder="EMAIL">
+					  </div>
+					  <div class="app-form-group message">
+						<textarea class="app-form-control" name="message" placeholder="NACHRICHT" rows="5"></textarea>
+					  </div>
+					  <div class="app-form-group buttons">
+						<button type="reset" class="app-form-button">CANCEL</button>
+						<button type="submit" class="app-form-button">SEND</button>
+					  </div>
+					</form>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
   </main>
   
   <footer>
